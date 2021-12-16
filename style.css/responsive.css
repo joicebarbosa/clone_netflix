@@ -5,7 +5,7 @@
     }
 
     .botao{
-        margin-top: 5px;
+        margin-top: 10px;
         width: 300px;     
     }
 
@@ -13,7 +13,13 @@
 
 @media screen and (min-width:1000px){
     .descricao{
-        width: 80%
+        width: 50%
+    }
+
+    .botao{
+        margin-top: 10px;
+        width: 300px;  
+        flex-direction: column;   
     }
     
 }
